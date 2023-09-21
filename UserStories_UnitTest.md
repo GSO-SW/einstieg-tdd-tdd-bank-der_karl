@@ -9,9 +9,9 @@
 Feedback berücksichtigen: 
 - wie langen brauchen wir für je Aufgabe?
 
-=> Kurz und knapp
-=> muss in einfacher Sprache vefasst werden
-=> immer mit "Definition of Done": ist eine Checkliste von Aufgaben. Wenn die alle erledigt werden, ist die Arbeit fertig
+>=> Kurz und knapp
+>=> muss in einfacher Sprache vefasst werden
+>=> immer mit "Definition of Done": ist eine Checkliste von Aufgaben. Wenn die alle erledigt werden, ist die Arbeit fertig
 
 ### Vorteile: 
 - Der Entwickler hat die Aufageb im Blick
