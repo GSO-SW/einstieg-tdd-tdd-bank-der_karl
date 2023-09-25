@@ -1,9 +1,9 @@
 using Bank;
 
-namespace TestBank
+namespace BankTests
 {
     [TestClass]
-    public class UnitTest1
+    public class KontoTests
     {
         [TestMethod]
         public void Geld_hinzufügen()
