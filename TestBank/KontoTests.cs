@@ -6,16 +6,20 @@ namespace BankTests
     public class KontoTests
     {
         [TestMethod]
-        public void Geld_hinzufügen()
+        public void Einzahlen_GuthabenSteigt()
         {
+            // arrange
             int guthaben = 10;
             int betrag = 7;
-            int expectedResult = 17;
+            Konto k = new Konto(guthaben);
 
-            int result = guthaben + betrag;
-       
 
-            Assert.AreEqual(expectedResult, result);
+            // act
+            k.Einzahlen(betrag);
+
+            // assert
+
+            Assert.AreEqual(17, k.Guthaben);
 
         }
     }
