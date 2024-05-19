@@ -35,5 +35,10 @@ namespace Bank
                 throw new ArgumentOutOfRangeException("Guthaben nicht ausreichend");
             }
         }
+
+        public void Alles_Auszahlen(int guthaben)
+        {
+            this.guthaben -= guthaben;
+        }
     }
 }
